@@ -292,17 +292,27 @@
         </div>
       </div>
     </div>
+    <generalFooter/>
   </section>
 
 </template>
 
 <script>
+import generalFooter from "../components/footerfoolder/generalfooter.vue"
 export default {
+  
   name: 'HomePage',
-  props: {
-    msg: String
+
+  components: {
+    generalFooter
+    
   }
+
+ 
 }
+
+
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
