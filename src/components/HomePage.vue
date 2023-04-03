@@ -92,7 +92,7 @@
         <li class="log_out">
           <a href="#">
             <i class='bx bx-log-out'></i>
-            <span class="links_name">Log out</span>
+            <span class="links_name"><router-link to="/" class="text-light">Log out</router-link></span>
           </a>
         </li>
       </ul>
@@ -124,6 +124,9 @@
         <span class="admin_name">Howdy, Cynthia</span>
         <i class='bx bx-chevron-down' ></i>
       </div>
+
+      
+      <button type="button" class="btn btn-outline-danger bg-danger  "><router-link to="/" class="text-light">Sign Out</router-link> </button>
     </nav>
 
     <div class="home-content">
